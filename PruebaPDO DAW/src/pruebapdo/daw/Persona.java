@@ -166,7 +166,7 @@ public class Persona extends Animal{
      * función que añade un año a la edad de la persona
      */
     public void cumplirAños(){
-        this.setEdad(this.getEdad()+1);
+        this.edad++;
     }
     
 

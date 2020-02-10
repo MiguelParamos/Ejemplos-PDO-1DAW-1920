@@ -13,7 +13,7 @@ import java.util.Random;
  */
 public class Animal {
     private String nombre; //El nombre del animal
-    private byte edad; //Edad en años del animal
+    protected byte edad; //Edad en años del animal
     protected final static Random r=new Random(); //Lo uso para sortear nombres y edades
     
     public Animal(String nombre, byte edad) {
